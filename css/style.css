@@ -11,11 +11,15 @@ body {
 .text-right {
 	text-align: right;
 }
+.header {
+	box-shadow: -17px -3px 13px #32618D;
+	margin-bottom: 1px;
+}
 .logo {
 	background-color: #32618D;
 	text-align: center;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-top: 8px;
+	padding-bottom: 8px;
 }
 .social {
 	font-size: 28px;
@@ -26,9 +30,11 @@ body {
 }
 .social a {
 	color: #8D9EBE;
+	padding-left: 10px;
 }
 .main-menu {
-	text-align: center
+	text-align: center;
+	overflow: hidden;
 }
 .main-menu ul{
 	list-style: none;
@@ -54,8 +60,131 @@ body {
 .slide img {
 	width: 100%;
 }
-.card-title::after {
-	content: '';
-	width: 5px;
+.container {
+	width: 1170px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
 }
-
+.title-section {
+	font-size: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 50px;
+	text-transform: uppercase;
+}
+.title-oferta-academica {
+	color: #32618D;
+}
+.title-contact {
+	background-color: #8DABC2;
+	color: white;
+} 
+.card {
+	border: 1px solid #D6D2D2;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	box-sizing: border-box;
+	float: left;
+	max-width: 30%;
+	margin-left: 3.3%;
+}
+.card-body {
+	padding-left: 7px;
+	padding-right: 7px;
+}
+.card-hero {
+	position: relative;
+}
+.card-hero img {
+	width: 100%;
+}
+.card-hero a {
+	display: none;
+	background-color: #FFB606;
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	text-decoration: none;
+	margin-left: -50px;
+	margin-top: -20px;
+	width: 100px;
+	height: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	transition: background-color 0.3s ease-in;
+}
+.card-hero:hover a {
+	display: block;
+}
+.card-hero a:hover {
+	background-color: #e0a006;
+}
+.card-title {
+	text-align: center;
+}
+.card-title::after {
+	background-color: #1CA311;
+	content: '';
+	display: block;
+	margin: 0 auto;
+	margin-top: 5px;
+	width: 60%;
+	height: 1px;
+}
+.card-list {
+	padding-left: 0;
+	list-style: none;
+}
+.card-list li{
+	color: #999999;
+	text-align: center;
+	padding-bottom: 5px;
+}
+.img-contact {
+	box-sizing: border-box;
+	float: left;
+	margin: 0;
+	width: 50%;
+}
+.img-contact img {
+	width: 100%;
+}
+.contact-form {
+	box-sizing: border-box;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-bottom: 30px;
+	float: left;
+	width: 50%;
+}
+.contact-form input[type="text"] {
+	display: block;
+}
+.form-control {
+	width: 100%;
+	margin: 15px 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	font-size: 16px;
+}
+.btn-send {
+	background-color: #32618D;
+	border: 1px solid #0F7DE5;
+	color: white;
+	padding: 8px 25px;
+	width: 150px;
+	border-radius: 3px;
+}
+.footer {
+	background-color: #32618D;
+	color: #FFB606;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
