@@ -75,6 +75,10 @@ body {
 	margin-top: 50px;
 	text-transform: uppercase;
 }
+.oferta-academica .container {
+	display: flex;
+	justify-content: space-between;
+}
 .title-oferta-academica {
 	color: #32618D;
 }
@@ -87,9 +91,7 @@ body {
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
 	box-sizing: border-box;
-	float: left;
-	max-width: 30%;
-	margin-left: 3.3%;
+	width: 350px;
 }
 .card-body {
 	padding-left: 7px;
@@ -145,11 +147,12 @@ body {
 	text-align: center;
 	padding-bottom: 5px;
 }
+.contact .container {
+	display: flex;
+	justify-content: space-around;
+}
 .img-contact {
-	box-sizing: border-box;
-	float: left;
 	margin: 0;
-	width: 50%;
 }
 .img-contact img {
 	width: 100%;
@@ -159,8 +162,8 @@ body {
 	padding-left: 20px;
 	padding-right: 20px;
 	margin-bottom: 30px;
-	float: left;
-	width: 50%;
+	display: flex;
+	flex-direction: column;
 }
 .contact-form input[type="text"] {
 	display: block;
