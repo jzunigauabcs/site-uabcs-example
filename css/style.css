@@ -48,3 +48,98 @@ body {
 .slider img {
 	width: 100%;
 }
+.container {
+	margin: 0 auto;
+	width: 1170px;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+}
+.title-section {
+	font-size: 30px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.title-oferta-academica {
+	color: #32618D;
+}
+.card {
+	border: 1px solid #D6D2D2;
+	border-radius: 5px;	
+	overflow: hidden;
+	width: 30%;
+}
+.card-hero {
+	position: relative;
+}
+.card-hero img {
+	width: 100%;
+}
+.btn-card-show {
+	background-color: #FFB606;
+	color: white;
+	display: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: -10px;
+	margin-left: -50px;
+	text-align: center;
+	text-decoration: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	height: 20px;
+	width: 100px;
+}
+.btn-card-show:hover {
+	background-color: #e0a006;
+}
+.card-hero:hover .btn-card-show{
+	display: block;
+}
+.card-title {
+	text-align: center;
+}
+.card-title::after {
+	content: '';
+	background-color: #1CA311;
+	display: block;
+	height: 1px;
+	margin: 0 auto;
+	margin-top: 5px;
+	width: 70%
+}
+.card-list {
+	color: #999999;
+	list-style: none;
+	text-align: center;
+	padding-left: 0;
+}
+.card-list li {
+	padding-bottom: 5px;
+}
+.title-contact {
+	background-color: #8DABC2;
+	color: white;
+
+}
+.img-contact {
+	margin: 0;
+}
+.img-contact img {
+	width: 100%;
+}
+.contact-form {
+	display: flex;
+	flex-direction: column;
+	padding: 0  20px 30px
+}
+.contact-form input[type="text"] {
+	display: block;
+}
+
+
+
+
+
