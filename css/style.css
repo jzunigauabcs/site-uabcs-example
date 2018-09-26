@@ -38,6 +38,7 @@ body {
 }
 .main-menu ul{
 	list-style: none;
+	padding: 0;
 }
 .main-menu ul li {
 	display: inline-block;
@@ -61,12 +62,12 @@ body {
 	width: 100%;
 }
 .container {
-	width: 1170px;
-	padding-left: 15px;
-	padding-right: 15px;
+	max-width: 1140px;
 	margin-left: auto;
 	margin-right: auto;
 	overflow: hidden;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 .title-section {
 	font-size: 30px;
@@ -190,4 +191,54 @@ body {
 	color: #FFB606;
 	padding-top: 15px;
 	padding-bottom: 15px;
+}
+
+@media screen and (max-width: 1200px) {
+
+}
+@media screen and (max-width: 767px) {
+	.header {
+		display: flex;
+		flex-direction: column;
+	}
+	.logo {
+		order: 2;
+	}
+	.social {
+		order: 1;
+		background-color: #32618D;
+		display: flex;
+		justify-content: flex-end;
+		padding-right: 20px; 
+		position: initial;
+	}
+	.main-menu {
+		order: 3;
+	}
+	.oferta-academica .container {
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.oferta-academica .container .card {
+		margin-bottom: 20px;
+	}
+	.contact .container {
+		flex-direction: column;
+	}
+}
+@media screen and (max-width: 480px) {
+
+	.logo img {
+		width: 100%;
+	}
+	.main-menu ul li {
+		display: block;
+		padding-bottom: 10px;
+	}
+	.oferta-academica .container {
+		justify-content: space-around;
+	}
+}
+@media screen and (max-width: 320px) {
+	
 }
