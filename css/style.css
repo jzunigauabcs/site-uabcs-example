@@ -167,3 +167,58 @@ body {
 	text-align: center;
 	margin-top: 20px;
 }
+/*Large*/
+@media screen and (max-width: 1200px) {
+	
+}
+@media screen and (max-width: 768px) {
+	.main-header {
+		display: flex;
+		flex-direction: column;
+	}
+	.logo {
+		order: 2;
+	}
+	.social {
+		background-color: #32618D;
+		position: initial;
+		display: flex;
+		justify-content: flex-end;
+		order: 1;
+		padding-top: 10px;
+		padding-right: 20px;
+	}
+	.main-menu {
+		order: 3;
+	}
+	.main-menu ul li {
+		display: block;
+		padding-bottom: 5px;
+	}
+	.slider img {
+		width: 100%;
+	}
+	.oferta-academica .container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		padding: 0 15px;
+	}
+	.card {
+		width: 45%;
+		box-sizing: border-box;
+		margin-bottom: 20px;
+	}
+	.contact .container {
+		display: flex;
+		flex-direction: column;
+	}
+}
+@media screen and (max-width: 480px) {
+	body {
+		background-color: pink;
+	}
+	.card {
+		width: 100%
+	}
+}
